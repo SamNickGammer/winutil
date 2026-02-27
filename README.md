@@ -25,7 +25,7 @@ Winutil must be run in Admin mode because it performs system-wide tweaks. To ach
 #### Recommended
 
 ```ps1
-irm "https://raw.githubusercontent.com/samnickgammer/winutil/main/winutil.ps1" | iex
+irm "https://github.com/SamNickGammer/winutil/releases/download/Final/winutil.ps1" | iex
 ```
 
 If you have Issues, refer to [Create Issue](https://github.com/samnickgammer/winutil/issues)
