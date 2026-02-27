@@ -5197,26 +5197,28 @@ Function Show-CTTLogo {
             Prints the CTT logo in ASCII art format to the console.
     #>
 
-    $asciiArt = @"
-    CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
- CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
-CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
-C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T
-C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C                     T:::::T                T:::::T
-C:::::C       CCCCCC        T:::::T                T:::::T
-C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT
-CC:::::::::::::::C       T:::::::::T            T:::::::::T
-CCC::::::::::::C         T:::::::::T            T:::::::::T
-  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT
+$asciiArt = @"
+WWWWWWWW                           WWWWWWWWUUUUUUUU     UUUUUUUUTTTTTTTTTTTTTTTTTTTTTTT
+W::::::W                           W::::::WU::::::U     U::::::UT:::::::::::::::::::::T
+W::::::W                           W::::::WU::::::U     U::::::UT:::::::::::::::::::::T
+W::::::W                           W::::::WUU:::::U     U:::::UUT:::::TT:::::::TT:::::T
+ W:::::W           WWWWW           W:::::W  U:::::U     U:::::U TTTTTTT  T:::::T  TTTTT
+  W:::::W         W:::::W         W:::::W   U:::::D     U:::::U          T:::::T
+   W:::::W       W:::::::W       W:::::W    U:::::U     U:::::U          T:::::T
+    W:::::W     W:::::::::W     W:::::W     U:::::U     U:::::U          T:::::T
+     W:::::W   W:::::W:::::W   W:::::W      U:::::U     U:::::U          T:::::T
+      W:::::W W:::::W W:::::W W:::::W       U:::::U     U:::::U          T:::::T
+       W:::::W:::::W   W:::::W:::::W        U:::::U     U:::::U          T:::::T
+        W:::::::::W     W:::::::::W         U::::::U   U::::::U          T:::::T
+         W:::::::W       W:::::::W          U:::::::UUU:::::::U        TT:::::::TT
+          W:::::W         W:::::W            UU:::::::::::::UU         T:::::::::T
+           W:::W           W:::W               UU:::::::::UU           T:::::::::T
+            WWW             WWW                  UUUUUUUUU             TTTTTTTTTTT
 
-====Chris Titus Tech=====
-=====Windows Toolbox=====
+=========================================
+===== Windows Utility Tool =====
+===== By SamNickGammer =====
+=========================================
 "@
 
     Write-Host $asciiArt
